@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace PlainWinRT.Native;
+namespace PlainToolkit.WinRT.Native;
 
 public static partial class WinString
 {

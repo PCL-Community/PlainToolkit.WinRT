@@ -1,12 +1,12 @@
-﻿using PlainWinRT.Types;
+﻿using PlainToolkit.WinRT.Types;
 
-namespace PlainWinRT.Helper;
+namespace PlainToolkit.WinRT.Helper;
 
 public static class HStringHelper
 {
     public static HString ToHString(string value)
     {
-        
+        return new HString();
     }
     
 }
