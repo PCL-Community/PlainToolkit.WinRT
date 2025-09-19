@@ -1,6 +1,9 @@
-﻿namespace PlainToolkit.WinRT.Native;
+﻿using System.Runtime.InteropServices;
 
-public static partial class RoApi
+namespace PlainToolkit.WinRT.Native;
+
+public static class RoApi
 {
-    
+    [DllImport("combase.dll")]
+    public static extern unsafe int RoGetActivationFactory(IntPtr runtimeClassId, Guid* iid, IntPtr* factory);
 }
