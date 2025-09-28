@@ -1,4 +1,4 @@
-﻿namespace PlainToolkit.WinRT.Types;
+﻿namespace PlainToolkit.WinRT.Runtime;
 
 /// <summary>
 /// 表示一个 WinRT HSTRING 句柄的只读包装。

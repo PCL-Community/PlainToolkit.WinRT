@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using PlainToolkit.WinRT.Native;
-using PlainToolkit.WinRT.Types;
+using PlainToolkit.WinRT.Runtime;
 
 namespace PlainToolkit.WinRT.Helper;
 
